@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/drawable/borde_total.xml" value="0.1585" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/activity_cliente.xml" value="0.22" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/activity_registro.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/activity_registro_usuario.xml" value="0.1" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/content_cliente.xml" value="0.209375" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/content_vendedor.xml" value="0.209375" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/fragment_carrito_lista.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/fragment_compra.xml" value="0.25" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/fragment_compra_lista.xml" value="0.18" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/fragment_editar_usuario.xml" value="0.1" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/fragment_producto_detalle.xml" value="0.1" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/fragment_producto_lista.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/fragment_producto_lista_cliente.xml" value="0.1" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/fragment_venta_cliete.xml" value="0.25" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/fragment_venta_detalle_vendedor.xml" value="0.22" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/fragment_venta_lista_vendedor.xml" value="0.1" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/item_carrito.xml" value="0.25" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/item_compra.xml" value="0.209375" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/item_detalle.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/item_producto.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/item_venta_cliente.xml" value="0.209375" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/item_venta_vendedor.xml" value="0.25" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/layout/nav_header_cliente.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/menu/activity_cliente_drawer.xml" value="0.209375" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/menu/activity_vendedor_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Taitus/AndroidStudioProjects/Ventas2022_003/app/src/main/res/menu/cliente.xml" value="0.16145833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

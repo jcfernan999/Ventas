@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="usuario.EditarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="11dp"
+        android:background="@color/llcolor">
+        <ImageView
+            android:id="@+id/ivEditarImg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bordes_layaut">
+
+            <EditText
+                android:id="@+id/etEditarNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="Juan Carlos"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Email"
+                android:background="@drawable/input_bg"
+                android:textColorHint="@color/black"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"/>
+            <EditText
+                android:id="@+id/etEditarApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="Apellido"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Email"
+                android:background="@drawable/input_bg"
+                android:textColorHint="@color/black"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"/>
+            <EditText
+                android:id="@+id/etEditarDni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="DNI"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Email"
+                android:background="@drawable/input_bg"
+                android:textColorHint="@color/black"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"/>
+            <EditText
+                android:id="@+id/etEditarDirrecion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="San Luis 32"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Email"
+                android:background="@drawable/input_bg"
+                android:textColorHint="@color/black"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"/>
+            <EditText
+                android:id="@+id/etEditarTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:text="2664755056"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Telefono"
+                android:background="@drawable/input_bg"
+                android:textColorHint="@color/black"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_baseline_settings_cell_24"
+                android:drawablePadding="10dp"/>
+            <EditText
+                android:id="@+id/etEditarEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="juan@gmail.com"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Email"
+                android:background="@drawable/input_bg"
+                android:textColorHint="@color/black"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="10dp"/>
+
+
+
+            <Button
+                android:id="@+id/btnEditarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Editar"
+                android:layout_marginTop="5dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

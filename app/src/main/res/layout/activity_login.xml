@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="11dp"
+        android:id="@+id/llCarritoItems"
+        android:background="@color/llcolor">
+
+        <ImageView
+            android:id="@+id/ivLoginImg"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_menu_camera" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bordes_layaut"
+            android:layout_marginBottom="150dp">
+
+            <EditText
+                android:id="@+id/etLoginUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bg"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="13dp"
+                android:text="tito@gmail.com"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etLoginContraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bg"
+                android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:paddingTop="13dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="13dp"
+                android:text="1q2w3e4r"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnLoginIniciarSesion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Iniciar Sesion"
+                android:layout_marginTop="10dp"
+                android:onClick="onClickIniciarSesion"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/registroll"
+                android:layout_alignParentBottom="true"
+                android:gravity="center">
+            <TextView
+                android:id="@+id/tvLoginCrearUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crear Usuario"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingTop="13dp"
+                android:paddingBottom="13dp"
+                android:onClick="onClickCrearUsuario"/>
+            </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/socialicons"
+                android:layout_alignParentBottom="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_margin="20dp"
+                    android:id="@+id/google_btn"
+                    android:src="@drawable/google"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

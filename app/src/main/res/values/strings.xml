@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Taitus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Menu  -->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_producto_cliente">Productos</string>
+    <string name="menu_carrito">Carrito</string>
+    <string name="menu_compra">Compras</string>
+    <string name="menu_usuario_editar">Editar</string>
+    <string name="menu_producto_detalle">Detalle</string>
+
+
+    <string name="menu_venta_Vendedor">Venta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="btn_producto_detalle">Agregar</string>
+    <string name="title_activity_registro">RegistroActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="invalid_nombre">Ingrese su Nombre</string>
+    <string name="invalid_apellido">Ingrese su Apellido</string>
+    <string name="invalid_dni">Ingrese su DNI > 8 caracteres</string>
+    <string name="invalid_telefono">Ingrese su Telefono</string>
+    <string name="invalid_email">Ingrese su Email</string>
+    <string name="invalid_contraseña">Ingrese su Contraseña > 8 caracteres </string>
+    <string name="invalid_re_contraseña">La contraseña no coincide.</string>
+    <string name="invalid_direccion">Ingrese su direccion</string>
+
+
+    <string name="title_activity_cliente">ClienteActivity</string>
+    <string name="title_activity_vendedor">VendedorActivity</string>
+
+</resources>

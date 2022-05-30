@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_producto_lista"
+            android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+            android:title="@string/menu_producto_cliente" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="@string/menu_carrito" />
+        <item
+            android:id="@+id/nav_compra"
+            android:icon="@drawable/ic_baseline_shopping_basket_24"
+            android:title="@string/menu_compra" />
+    </group>
+    <item android:title="Usuario">
+        <menu>
+            <item
+                android:id="@+id/nav_usuario_editar"
+                android:icon="@drawable/ic_baseline_person_24"
+                android:title="@string/menu_usuario_editar" />
+        </menu>
+    </item>
+</menu>

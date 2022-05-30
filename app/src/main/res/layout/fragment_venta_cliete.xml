@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vendedor.ui.venta.VentaDetalleVendedorFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:id="@+id/llCarritoItems">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:background="@drawable/bordes_layaut"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:id="@+id/editTextDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date"
+                    />
+
+                <TextView
+                    android:id="@+id/tvProDetNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:text="Cliente"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="3dp"
+                    android:drawablePadding="5dp"/>
+                <TextView
+                    android:id="@+id/tvProDetNombrev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:text="vendedor"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="3dp"
+                    android:drawablePadding="5dp"/>
+                <TextView
+                    android:id="@+id/tvProDetDescripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:text="Total"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="5dp"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:layout_marginTop="3dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="cANCELAR"
+                        android:layout_marginRight="2dp"/>
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Entregar"
+                        android:layout_marginLeft="2dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

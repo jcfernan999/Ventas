@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_producto_lista">
+
+    <fragment
+        android:id="@+id/nav_producto_lista"
+        android:name="com.example.ventas.cliente.ui.producto.ProductoListaFragment"
+        android:label="@string/menu_producto_cliente"
+        tools:layout="@layout/fragment_producto_lista" />
+    <fragment
+        android:id="@+id/nav_carrito"
+        android:name="com.example.ventas.cliente.ui.carrito.CarritoListaFragment"
+        android:label="@string/menu_carrito"
+        tools:layout="@layout/fragment_carrito_lista" />
+    <fragment
+        android:id="@+id/nav_compra"
+        android:name="com.example.ventas.usuario.EditarFragment"
+        android:label="@string/menu_compra"
+        tools:layout="@layout/fragment_compra_lista" />
+    <fragment
+        android:id="@+id/nav_usuario_editar"
+        android:name="com.example.ventas.usuario.EditarFragment"
+        android:label="@string/menu_usuario_editar"
+        tools:layout="@layout/fragment_editar_usuario" />
+
+    <fragment
+        android:id="@+id/nav_producto_detalle"
+        android:name="com.example.ventas.cliente.ui.producto.ProductoDetalleFragment"
+        android:label="@string/menu_producto_detalle"
+        tools:layout="@layout/fragment_producto_detalle" />
+</navigation>
